@@ -4,7 +4,8 @@
   "description": "Groupon chrome extension",
   "browser_action": {
     "default_icon": "icon.png",
-    "popup": "popup.html"
+    "popup": "popup.html",
+		"css": "css/all.css"
   },
   "permissions": ["http://www.groupon.com//api/v1/deals.json"]
 }
