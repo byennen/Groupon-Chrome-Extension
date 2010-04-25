@@ -147,11 +147,12 @@ float:left;
 
 .buy-now {
 	clear:both;
-	width:100%;
 	background:#000;
 	margin:5px 0;
 	padding:10px;
 	text-align:center;
 	font-size:20px;
 	color:#fff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
 }
