@@ -108,8 +108,8 @@ padding:2px;
 
 h2 {
 font-weight:700;
-font-size:30px;
-line-height:48px;
+font-size:15px;
+line-height:18px;
 }
 
 h3 {
@@ -132,21 +132,22 @@ color:#333;
 
 #deal-container {
 margin:5px;
-min-height:100px;
+min-height:70px;
 }
 
 .deal-image {
 width:100px;
-height:100px;
-background:#ccc;
 float:right;
 }
 
 .left,.deal-info {
 float:left;
+width:290px;
 }
 
-.buy-now {
+#price {display:none;}
+
+#buy-now {
 	clear:both;
 	background:#000;
 	margin:5px 0;
