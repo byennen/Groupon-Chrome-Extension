@@ -125,13 +125,14 @@ line-height:18px;
 color:#559cbe;
 }
 
-.title {
+#title {
 font-size:15px;
 color:#333;
 }
 
 #deal-container {
 margin:5px;
+min-height:100px;
 }
 
 .deal-image {
