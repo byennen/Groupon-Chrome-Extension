@@ -6,5 +6,5 @@
     "default_icon": "icon.png",
     "popup": "popup.html"
   },
-  "permissions": ["http://www.groupon.com/"]
+  "permissions": ["http://www.groupon.com//api/v1/deals.json"]
 }
