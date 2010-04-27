@@ -5,6 +5,6 @@ window.onload = function() {
   titleDiv = document.getElementById("title").innerHTML = deal.title;
   priceDiv = document.getElementById("price").innerHTML = deal.price;
 	imageDiv = document.getElementById("image").innerHTML = "<img src=" + deal.medium_image_url + ">";
-	buynowDiv = document.getElementById("buy-now").innerHTML = "<a href="+ deal.deal_url + ">Buy Now</a>";
+	buynowDiv = document.getElementById("buy-now").innerHTML = "<a href='"+ deal.deal_url + "' target='_blank'>Buy Now</a>";
 
 };
